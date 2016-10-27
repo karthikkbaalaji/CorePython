@@ -20,3 +20,6 @@ stride characters at a time.
 
 ### 5. Lists:
   - a. Program to demonstrate list manipulations.
+
+### 6. Remove List Duplicates:
+

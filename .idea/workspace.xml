@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca93c1c5-6275-49ae-893c-348e9b6e4162" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists.py" afterPath="$PROJECT_DIR$/lists.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RemoveListDuplicates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CorePython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lists.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lists.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+            <state relative-caret-position="690">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveListDuplicates.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RemoveListDuplicates.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -106,6 +118,7 @@
         <option value="$PROJECT_DIR$/StringFunctions.py" />
         <option value="$PROJECT_DIR$/StringFunctions2.py" />
         <option value="$PROJECT_DIR$/lists.py" />
+        <option value="$PROJECT_DIR$/RemoveListDuplicates.py" />
       </list>
     </option>
   </component>
@@ -167,24 +180,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.lists">
-    <configuration default="false" name="loops2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CorePython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loops2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.RemoveListDuplicates">
     <configuration default="false" name="primenumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,6 +245,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CorePython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RemoveListDuplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CorePython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RemoveListDuplicates.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -388,19 +401,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.loops2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.primenumbers" />
-      <item index="2" class="java.lang.String" itemvalue="Python.StringFunctions" />
-      <item index="3" class="java.lang.String" itemvalue="Python.StringFunctions2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lists" />
+      <item index="0" class="java.lang.String" itemvalue="Python.primenumbers" />
+      <item index="1" class="java.lang.String" itemvalue="Python.StringFunctions" />
+      <item index="2" class="java.lang.String" itemvalue="Python.StringFunctions2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lists" />
+      <item index="4" class="java.lang.String" itemvalue="Python.RemoveListDuplicates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lists" />
-        <item index="1" class="java.lang.String" itemvalue="Python.StringFunctions2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.StringFunctions" />
-        <item index="3" class="java.lang.String" itemvalue="Python.primenumbers" />
-        <item index="4" class="java.lang.String" itemvalue="Python.loops2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.RemoveListDuplicates" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lists" />
+        <item index="2" class="java.lang.String" itemvalue="Python.StringFunctions2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.StringFunctions" />
+        <item index="4" class="java.lang.String" itemvalue="Python.primenumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +439,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52284944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38844085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -588,8 +601,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="690">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoveListDuplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>

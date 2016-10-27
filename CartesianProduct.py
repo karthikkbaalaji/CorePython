@@ -13,10 +13,10 @@ sleeves = ['short','long']
 tshirts = [[color,size,sleeve]  for color in colors
                                 for size in sizes
                                 for sleeve in sleeves]
-print(tshirts,end="\n")
+print(tshirts,end="\n\n")
 
-#2. Squares of integers
+#2. Squares of integerssquares
 
-squares = [[num*num] for num in range(1,100)]
-print(squares)
+squares = [str(num*num) for num in range(1,26)]
+print(','.join(squares))
 

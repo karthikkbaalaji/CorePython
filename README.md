@@ -37,3 +37,16 @@ stride characters at a time.
  - 1. Start with Cartesian product example (colors x sizes of t- shirts) and add a third list, sleeves = ['short', 'long']
 then write a new listcomp which generates the Cartesian product colors x sizes x sleeves.
  - 2. Use a list comprehension to create a list of the squares of the integers from 1 to 25 (i.e, 1, 4, 9, 16, ..., 625)
+
+### 8. Tuples:
+
+ - Given a list of words, this program will sort them by length of word, rather than alphabetically.
+ - To do this, we first create a list of tuples of the form (len, word), where the first element is the length of the word.
+ - Next, we sort the tuples.
+ - Finally, we can extract the words from the list of tuples into a new list which is now sorted by length of word.
+ - We will use a list comprehension if you can.
+
+
+### 9. Sets:
+
+ - 

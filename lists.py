@@ -56,6 +56,7 @@ while True:
         print("Enter which list to reverse(1-2): ")
         num = int(raw_input())
         lists[num-1] = lists[num-1][::-1]
+        #lists[num-1].reverse()
 
     #Comparing lists
     if option == 'f':
@@ -74,5 +75,6 @@ while True:
     #Exit
     if option == 'e':
         break
+
     else:
         print("Incorrect Option!")

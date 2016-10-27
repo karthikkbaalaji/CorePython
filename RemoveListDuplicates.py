@@ -9,7 +9,7 @@ list = raw_input().split(',')
 list2 = []
 
 for items in list:
-    if not items in list2:
+    if items not in list2:
         list2.append(items)
 print("Uniqe list:",list2)
 print(','.join(list2))

@@ -49,4 +49,6 @@ then write a new listcomp which generates the Cartesian product colors x sizes x
 
 ### 9. Sets:
 
- - 
+### 10. Files:
+
+ -

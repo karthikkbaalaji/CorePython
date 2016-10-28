@@ -26,4 +26,4 @@ def calculator(x,y,operand,**kwargs):
         return ('Invalid operand passed')
 
 # print(sys.argv)
-print(calculator(int(sys.argv[1]),int(sys.argv[2]),sys.argv[3]))
+# print(calculator(int(sys.argv[1]),int(sys.argv[2]),sys.argv[3]))

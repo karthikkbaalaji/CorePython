@@ -49,6 +49,20 @@ then write a new listcomp which generates the Cartesian product colors x sizes x
 
 ### 9. Sets:
 
+ - Program to use a set to find all of the unique words in the input and print them out in sorted order.
+ - If the user entered "There is no there there", the program will print
+ - is
+ - no
+ - there
+ - Note that "There" and "there" will be counted as the same word.
+
+
 ### 10. Files:
 
- -
+ - 1. Program to prompt the user for a filename and then opens that file and writes the contents of this file to a new file in reverse order.
+ - 2. Program to read a file and count the number of occurrences of each word in the file:
+ - We use a dict, indexed by word, to count the occurrences
+ - If dict is d, then d.get(key) will return None; if there is no such key in the dict (d[key] will throw an exception)
+ - Treat 'The' and 'the' as the same word for counting purposes
+ - Use a dict, indexed by word, to count the occurrences
+ - Print out the words and their counts, from least common to most common

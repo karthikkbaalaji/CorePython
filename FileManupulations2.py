@@ -4,20 +4,21 @@
 # your program should treat 'The' and 'the' as the same word for counting purposes
 # print out the words and their counts, from least common to most common
 
-count = {}
+import string
 
-# filename = input('Enter a filename: ')
+#filename = input('Enter a filename: ')
 filename = '/tmp/poem.txt'
+ex = set(string.punctuation)
+count = {}
 
 for line in open(filename):
     line = line.lower()
+    line = ''.join([ch for ch in line if ch not in ex])
     for word in line.split():
-        if count.get(word):
-            count[word] += 1
-        else:
-            count[word] = 1
+        count[word] = count.get(word, 0) + 1
 
 for key in sorted(count, key=count.get):
     print(key, count[key])
+
 
 

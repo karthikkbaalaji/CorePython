@@ -13,7 +13,7 @@ list = inputString.split()
 set = set(list)
 sortedList = sorted(set)
 
-for item in sortedList:
-    print(item,end=' ')
+# for item in sortedList:
+#     print(item,end=' ')
 
-#print(sortedList)
+print(sortedList)

@@ -69,11 +69,21 @@ then write a new listcomp which generates the Cartesian product colors x sizes x
 
 ### 11. Functions:
 
+ - 1. calculate which is passed two operands and an operator and returns the calculated result, e.g. calculate(2, 4, '+') would return 6
+ - 2. Write a function which takes an integer as a parameter, and sums up its digits. If the resulting sum contains more than 1 digit, the function should sum the digits again,
+      e.g., sumdigits(1235) should compute the sum of 1, 2, 3, and 5 (11), then compute the sum of 1 and 1, returning 2.
+ - 3. Write a function which takes a number as a parameter and returns a string version of the number with commas representing thousands, e.g., add_commas(12345) would return "12,345"
+
+
 ### 12. Exceptions:
 
 ### 13. Modules:
 
 ### 14. Regular Expressions:
+
+ - 1. Program which takes two command line arguments, a filename and a regex pattern,
+ the program will act like grep in that it should search for the pattern in each line of the file if the pattern matches a given line,
+ print out the line
 
 ### 15. Object Oriented Programming/Classes:
 

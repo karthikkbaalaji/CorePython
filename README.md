@@ -66,3 +66,5 @@ then write a new listcomp which generates the Cartesian product colors x sizes x
  - Treat 'The' and 'the' as the same word for counting purposes
  - Use a dict, indexed by word, to count the occurrences
  - Print out the words and their counts, from least common to most common
+
+### 11. Functions:

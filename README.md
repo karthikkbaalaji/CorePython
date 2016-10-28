@@ -68,3 +68,12 @@ then write a new listcomp which generates the Cartesian product colors x sizes x
  - Print out the words and their counts, from least common to most common
 
 ### 11. Functions:
+
+### 12. Exceptions:
+
+### 13. Modules:
+
+### 14. Regular Expressions:
+
+### 15. Object Oriented Programming/Classes:
+

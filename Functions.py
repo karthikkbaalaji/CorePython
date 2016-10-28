@@ -10,13 +10,22 @@ from __future__ import print_function
 import math
 
 
-def calculator(x,y,operand):
+def calculator(x,y,operand,**kwargs):
+
+    # for key in kwargs:
+    if(kwargs.get('float')==True):
+        x = float(x)
+        y = float(y)
     if(operand == '+'):
         return x + y
     elif(operand == '-'):
         return x - y
     elif(operand == '/'):
-        return x / y
+        try:
+            return x / y
+        except ZeroDivisionError as e:
+            #gives the name of the exception
+            return('Invalid division',type(e).__name__)
     elif(operand == '*'):
         return x * y
     else:
@@ -48,3 +57,5 @@ print(sumTheDigits(x))
 
 x = raw_input('Enter a number to be formatted :')
 print(formattedNumber(x))
+
+print(calculator(1,2,'*',float=True))
